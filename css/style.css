@@ -1,0 +1,320 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  outline: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* text-color */
+
+.text-primary{
+  color: #003CFF;
+}
+
+/* bg-background */
+
+.bg-primary-color{
+  background-color: #CCE2FF;
+}
+
+
+
+/* navbar */
+.navbar a{
+  font-weight: bold;
+  color: #2E298C;
+}
+
+/* banner-section */
+.banner-section{
+  padding: 20px 0px 0px ;
+}
+.banner-body-content h1{
+  color: #003CFF;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.banner-body-content h5{
+font-size: 26px;
+font-weight: 500;
+color: #2E298C;
+}
+.banner-body-content h6{
+font-size: 20px;
+font-weight: 300;
+color: #000000;
+}
+.banner-body-content input{
+  border: 2px solid #FF5C2B;
+  padding: 5px;
+  border-radius: 3px;
+}
+.banner-btn{
+  background-color: #FF6637;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 6px 35px;
+  white-space:nowrap;
+}
+
+.bill-summary{
+  color: #272377;
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight:500;
+}
+.banner-body-content p{
+  color: #1E1E1E;
+  font-size: 14px;
+  line-height: 20px;
+}
+#bannerAnimateImg{
+  width: 73% !important;
+  margin: auto !important;
+}
+
+/* select-btn-section */
+.select-btn-section{
+  padding: 20px 0px  0px;
+}
+.select-btn-section .age-btn{
+  background-color: #141CCB;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 22px;
+  width: 100%;
+  text-wrap: nowrap;
+  padding: 10px 0px;
+}
+.select-btn-section .age-btn:hover{
+  background-color: #0E138D;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.select-btn-section .age-btn:active{
+  background-color: #060839;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.select-btn-section h4{
+  color: #003BFF;
+  font-weight: 700;
+  font-size: 28px;
+}
+.select-btn-section .check-btn{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 22px;
+  width: 100%;
+  text-wrap: nowrap;
+  padding: 10px 0px ;
+  background-color: #18B010;
+}
+.select-btn-section .check-btn:hover{
+  color: #FFFFFF;
+  background-color: #178812;
+  font-weight: 600;
+}
+.select-btn-section .check-btn:active{
+  color: #FFFFFF;
+  background-color: #12640E;
+  font-weight: 700;
+}
+
+.select-btn-section p{
+  color: #003BFF;
+  line-height: 24px;
+}
+
+.insurance-mid-info-section{
+  padding: 60px 0px 10px;
+}
+.insurance-mid-info-section h4{
+  color: #003BFF;
+  font-weight: 800;
+  font-size: 32px;
+}
+.insurance-mid-info-section h5{
+  color: #2C2C2C;
+  font-weight: 500;
+  font-size: 22px;
+}
+.insurance-mid-info-section .text-paragraph{
+  color: #000000;
+  font-size: 14px;
+  line-height: 24px;
+}
+.highlight-primary-text{
+  font-size: 30px;
+  color: #003BFF;
+  font-weight: 700;
+}
+.highlight-main-text{
+  font-size: 19px !important;
+  line-height: 30px !important;
+  font-weight: 500;
+}
+.insurance-mid-info-section .secondary-text{
+  color: #2E2E2E;
+  font-weight: 500;
+  font-size: 17px;
+}
+/* footer-section */
+
+.footer-section{
+  padding: 30px 0px ;
+  background-color: #D9D9D9;
+}
+.footer-section a{
+  color:#000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer-section p{
+  color:#000000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 767px) {
+  /* navbar */
+  .navbar a{
+    font-weight: 700;
+    color: #2E298C;
+  }
+  
+  /* banner-section */
+  .banner-section{
+    padding: 7px 0px 0px ;
+  }
+ .banner-body-content{
+  text-align: center;
+ }
+  .banner-body-content h1{
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .banner-body-content h5{
+  font-size: 21px;
+  }
+  .banner-body-content h6{
+  font-size: 18px;
+  font-weight: 300;
+  }
+  .banner-body-content input{
+    border: 2px solid #FF5C2B;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .banner-btn{
+    font-size: 16px;
+    border-radius: 3px;
+  }
+
+  /* select-btn-section */
+  .select-btn-section{
+    padding: 3px 0px  0px;
+  }
+  .select-btn-section .age-btn{
+    font-size: 20px;
+  }
+
+  .select-btn-section h4{
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .select-btn-section .check-btn{
+    font-size: 20px;
+  }
+
+  
+  .insurance-mid-info-section{
+    padding: 20px 0px 10px;
+  }
+  .insurance-mid-info-section h4{
+    font-weight: 700;
+    font-size: 26px;
+  }
+  .insurance-mid-info-section h5{
+    font-size: 19px;
+  }
+  .highlight-primary-text{
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .highlight-main-text{
+    font-size: 17px !important;
+    line-height: 28px !important;
+    font-weight: 500;
+  }
+  .insurance-mid-info-section .secondary-text{
+    font-size: 16px;
+  }
+  /* footer-section */
+  
+  .footer-section{
+    padding: 20px 0px ;
+    background-color: #D9D9D9;
+  }
+  .footer-section a{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .footer-section p{
+    color:#000000;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #bannerAnimateImg{
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1011px) {
+  .highlight-primary-text {
+    font-size: 28px;
+}
+}
+
+
+  
+  
+
