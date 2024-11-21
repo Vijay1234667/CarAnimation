@@ -79,6 +79,7 @@ color: #000000;
 .banner-body-content input{
   border: 2px solid #FF5C2B;
   padding: 5px;
+  width: 50%;
   border-radius: 3px;
 }
 .banner-btn{
@@ -86,7 +87,7 @@ color: #000000;
   color: white;
   font-size: 16px;
   border-radius: 3px;
-  padding: 6px 35px;
+  width: 50%;
   white-space:nowrap;
 }
 
