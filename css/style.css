@@ -88,6 +88,7 @@ color: #000000;
   border-radius: 3px;
   white-space:nowrap;
   width: 100%;
+  width: fit-content;
 }
 
 .bill-summary{
