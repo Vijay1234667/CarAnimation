@@ -56,6 +56,10 @@ button {
   font-weight: bold;
   color: #2E298C;
 }
+.logo {
+  width: 160px;
+  margin-right: 10px;
+}
 
 /* banner-section */
 .banner-section{
@@ -243,6 +247,11 @@ color: #000000;
   .navbar a{
     font-weight: 700;
     color: #2E298C;
+    font-size: 15px;
+  }
+  .logo {
+    width: 100px;
+    margin-right: 6px;
   }
   
   /* banner-section */
